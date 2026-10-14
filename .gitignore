@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local uploads and generated files (Railway has its own storage)
+uploads/*
+generated/*
+
+# Keep the folders themselves
+!uploads/.gitkeep
+!generated/.gitkeep
+
+# ngrok binary
+ngrok.exe
+ngrok
+
+# Environment
+.env
+*.log
